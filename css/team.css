@@ -16,6 +16,10 @@
 
 .team-item {
   background-color: var(--color-white);
+  box-shadow:
+     0 2px 1px 0 #2E2F4214,
+     0 1px 1px 0 #2E2F4229,
+     0 1px 6px 0 #2E2F4214;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px
 }
@@ -41,7 +45,6 @@
 }
 
 .socials {
-  margin-top: 8px;
   display: flex;
   gap: 24px;
 }
@@ -58,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials .socials-link:hover,

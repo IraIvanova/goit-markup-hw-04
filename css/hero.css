@@ -39,6 +39,7 @@
 }
 
 .hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:focus,
+.hero-btn:active {
   background-color: var(--color-primary-pressed);
 }
