@@ -1,0 +1,67 @@
+.team {
+  background-color: var(--color-light);
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-item {
+  background-color: var(--color-white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.team-card .name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-dark);
+}
+
+.team-card .role {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.socials {
+  margin-top: 8px;
+  display: flex;
+  gap: 24px;
+}
+
+.socials .icon {
+  fill: var(--color-primary);
+}
+
+.socials .socials-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms linear;
+}
+
+.socials .socials-link:hover,
+.socials .socials-link:focus {
+  background-color: var(--color-primary-pressed);
+}

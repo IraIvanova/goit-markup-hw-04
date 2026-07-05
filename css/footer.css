@@ -1,0 +1,24 @@
+.footer {
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  padding: 100px 0;
+}
+
+.footer .container {
+  padding: 0 15px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 264px;
+}
+
+.footer-logo {
+  color: var(--color-light);
+}
+
+.footer-text {
+  line-height: 1.5;
+}
